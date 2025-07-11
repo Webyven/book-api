@@ -1,0 +1,40 @@
+# Archivos binarios y objetos
+**/bin/
+**/obj/
+
+# Archivos generados por compilación
+**/*.dll
+**/*.exe
+**/*.pdb
+
+# Archivos temporales de usuario
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Archivos de base de datos locales
+**/*.db
+**/*.sqlite
+**/*.mdf
+**/*.ldf
+
+# Archivos de logs
+*.log
+
+# Archivos generados por Rider o VS Code
+.idea/
+.vscode/
+.vs/
+
+# Archivos de configuración locales
+appsettings.Development.json
+secrets.json
+
+# Archivos del sistema
+Thumbs.db
+.DS_Store
+
+# Sistema de publicaciones temporales
+**/publish/
+**/release/
