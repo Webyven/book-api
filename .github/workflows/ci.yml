@@ -25,6 +25,5 @@ jobs:
       - name: 🛠️ Compilar solución
         run: dotnet build --configuration Release
 
-      # Futuro: agregar tests
-      # - name: 🧪 Correr tests
-      #   run: dotnet test
+      - name: 🧪 Correr tests
+        run: dotnet test
